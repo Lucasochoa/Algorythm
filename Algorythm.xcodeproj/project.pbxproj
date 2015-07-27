@@ -14,6 +14,8 @@
 		0A590F5D1B65E46B0043A857 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A590F5B1B65E46B0043A857 /* LaunchScreen.xib */; };
 		0A590F691B65E46B0043A857 /* AlgorythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A590F681B65E46B0043A857 /* AlgorythmTests.swift */; };
 		0A590F731B65E7CD0043A857 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A590F721B65E7CD0043A857 /* PlaylistDetailViewController.swift */; };
+		0AA1BA8E1B66B05700942F50 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1BA8D1B66B05700942F50 /* MusicLibrary.swift */; };
+		0AA1BA901B66B15B00942F50 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1BA8F1B66B15B00942F50 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		0A590F671B65E46B0043A857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A590F681B65E46B0043A857 /* AlgorythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorythmTests.swift; sourceTree = "<group>"; };
 		0A590F721B65E7CD0043A857 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		0AA1BA8D1B66B05700942F50 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		0AA1BA8F1B66B15B00942F50 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		0A590F4F1B65E46B0043A857 /* Algorythm */ = {
 			isa = PBXGroup;
 			children = (
+				0AA1BA8F1B66B15B00942F50 /* Playlist.swift */,
+				0AA1BA8D1B66B05700942F50 /* MusicLibrary.swift */,
 				0A590F521B65E46B0043A857 /* AppDelegate.swift */,
 				0A590F541B65E46B0043A857 /* PlaylistMasterViewController.swift */,
 				0A590F721B65E7CD0043A857 /* PlaylistDetailViewController.swift */,
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A590F731B65E7CD0043A857 /* PlaylistDetailViewController.swift in Sources */,
+				0AA1BA8E1B66B05700942F50 /* MusicLibrary.swift in Sources */,
 				0A590F551B65E46B0043A857 /* PlaylistMasterViewController.swift in Sources */,
 				0A590F531B65E46B0043A857 /* AppDelegate.swift in Sources */,
+				0AA1BA901B66B15B00942F50 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +423,7 @@
 				0A590F6E1B65E46B0043A857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A590F6F1B65E46B0043A857 /* Build configuration list for PBXNativeTarget "AlgorythmTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				0A590F711B65E46B0043A857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
