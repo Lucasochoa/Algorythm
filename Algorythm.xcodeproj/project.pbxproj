@@ -83,9 +83,9 @@
 		0A590F4F1B65E46B0043A857 /* Algorythm */ = {
 			isa = PBXGroup;
 			children = (
+				0A590F521B65E46B0043A857 /* AppDelegate.swift */,
 				0AA1BA8F1B66B15B00942F50 /* Playlist.swift */,
 				0AA1BA8D1B66B05700942F50 /* MusicLibrary.swift */,
-				0A590F521B65E46B0043A857 /* AppDelegate.swift */,
 				0A590F541B65E46B0043A857 /* PlaylistMasterViewController.swift */,
 				0A590F721B65E7CD0043A857 /* PlaylistDetailViewController.swift */,
 				0A590F561B65E46B0043A857 /* Main.storyboard */,
